@@ -1,0 +1,14 @@
+@import "../../../../styles/variable";
+
+.container{
+	// border: 1px solid red;
+	display: inline-block;
+	background-color: $primary;
+	padding: .4rem .4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+}

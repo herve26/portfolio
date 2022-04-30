@@ -1,0 +1,39 @@
+.container{
+    // border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    margin-right: auto;
+    a{
+        font-size: 3rem;
+        color: #14c0dc;
+        text-decoration: none;
+    }
+    
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.item{
+    margin-right: .6rem;
+
+    a{
+        color: #FFF;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: .4rem;
+    }
+}

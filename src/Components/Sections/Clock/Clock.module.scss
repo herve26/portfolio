@@ -1,0 +1,18 @@
+.container{
+	display: flex;
+	// border: 1px solid red;
+	justify-content: center;
+}
+.clock{
+	// border: 1px solid #FFF;
+	background-color: #FFF;
+	padding: 1rem 2rem;
+	display: inline-block;
+	border-radius: 8px;
+	span{
+		// color: #FFF;
+		font-size: 2rem;
+		display: inline-block;
+		margin-left: 8px;
+	}
+}
